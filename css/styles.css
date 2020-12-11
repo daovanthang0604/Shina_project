@@ -1,0 +1,502 @@
+body{
+  font-family: "Helvetica Neue";
+}
+header{
+  background-color:  #1a1d1f;
+}
+h1{
+  font-size: 3.8rem;
+}
+h3{
+  font-size: 3rem;
+}
+h4{
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* p{
+  font-size:1.3rem;
+} */
+.header_top{
+  border-bottom: 1px solid white;
+}
+.header_top , .header_bottom{
+  margin-left: 10rem;
+}
+.header_email{
+  color: #3d9970;
+}
+.header_top__left a, .header_top__right i, .header_top__right span{
+  font-size: 1.2rem;
+}
+/* .header_top__right{
+  background-color: #6ba602;
+} */
+.skewed {
+  height: 0;
+   width: 25%;
+   border-bottom: 5rem solid #3d9970;
+   border-left: 60px solid transparent;
+}
+
+/* Nav bar */
+.myNavbar{
+  padding-left: 0;
+}
+.navbar_search{
+  border-left: 1px solid white;
+}
+.nav-item:hover{
+  background-color:#3d9970; ;
+}
+.navbar_butto span{
+  color: #fff !important;
+}
+/* Homepage Carousel */
+.carousel_caption_left{
+  width: 40%;
+  left: 12%;
+  top: 20%;
+  text-align: left;
+  transform: translateY(10%);
+}
+.carousel_caption_left p{
+  font-size: 1.5rem;
+}
+.carousel_caption_left button:hover{
+  background-color: #3d9970;
+}
+.carousel_title{
+  border-left: 2px solid #9aa1a0;
+  padding-left: 4%;
+}
+.carousel_caption_right{
+  position: absolute;
+  right: 12%;
+  top: 35%;
+  background-color: rgba(50, 53, 55, 0.8);
+  width: 20%;
+  transform: rotateY(40deg);
+   animation: carousel_caption_right 2s infinite;
+   animation-direction: alternate;
+
+}
+.carousel_caption_right button{
+  background-color: #3d9970;
+  width: 100%;
+}
+
+/* Best house for sale */
+.best_house{
+  padding: 7% 10%;
+}
+.best_house__title > p{
+  color:#3d9970;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.seperator{
+  background-image: linear-gradient(to right,black, #3d9970);
+  height: 5px;
+  width: 5%;
+}
+.best_house__content img{
+  width: 100%;
+}
+.best_house__image{
+  position: relative;
+}
+.overlay_box{
+  background-color: rgba(50, 53, 55, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.overlay_content{
+  width: 100%;
+  height: 100%;
+}
+.overlay_content__house{
+  position: relative;
+  text-align: center;
+  margin-top: 30%;
+
+}
+.overlay_content button{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #4e4d7f;
+}
+/* .best_house__image:hover .overlay_box{
+  display: block;
+} */
+/* About us */
+.about{
+  padding: 7% 10%;
+  background-color: #f3f3f3;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.about_content__title{
+  font-size: 3rem;
+}
+.about_content p:nth-child(2){
+  font-size: 1.5rem;
+}
+.about_content__title > span{
+  color:#3d9970;
+}
+.about_content__col i{
+  color: #3d9970;
+}
+.about_content__col p{
+  font-weight: 500;
+}
+.count{
+  font-size: 1.5rem;
+}
+/* Property for sale */
+.property_sale{
+  padding: 7% 10%;
+}
+.property_details img{
+  width: 100%;
+  height: 100%;
+}
+.property_sale__title > p{
+  color: #3d9970;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.property_location{
+  color: #3d9970;
+  font-weight: bold;
+}
+.property_subtitle{
+  color: #808284;
+}
+.property_icon{
+  background-color: #f3f3f3;
+}
+.property_icon i{
+  line-height: 2.5;
+}
+.property_image{
+  position: relative;
+}
+.property_for_sale{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 20%;
+  height: 15%;
+  background-color: #2f2953;
+  border-radius: 0 0 25px 0;
+}
+
+.property_price{
+  position: absolute;
+  right:0;
+  bottom: 0;
+    width: 20%;
+    height: 15%;
+    background-color: #2f2953;
+      border-radius: 15px 0 0 0;
+}
+.sale{
+  position: relative;
+  width: 100%;
+}
+.price{
+  position: relative;
+}
+
+/* Contact now */
+
+
+.contact_now{
+  position: relative;
+    padding: 130px 0px 125px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.contact_row{
+  padding: 0 10%;
+  margin: 0;
+}
+.contact_now::before{
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(26,29,31,0.80);
+}
+.contact_title p{
+  font-size: 1.2rem;
+}
+.contact_text{
+  font-weight: bold;
+}
+.contact_button button{
+  background-color: #3d9970;
+}
+.contact_button button:hover{
+  background-color: black;
+}
+/* Photo Gallery */
+.gallery_grid{
+  margin: 0;
+}
+.gallery_title span{
+  color:#3d9970;
+}
+.gallery_filter button{
+  border-radius: 20px;
+}
+.gallery_filter button:hover{
+  background-color: #3d9970;
+}
+.grid-item img{
+  width: 100%;
+  height: 100%;
+}
+.grid-item{
+  padding: 0;
+  overflow: hidden;
+}
+.button-active{
+  background-color: #3d9970;
+}
+
+/* Agents */
+.agent{
+  padding: 7% 10%;
+  background-color: #f3f3f3;
+}
+.agent__title p{
+  color: #3d9970;
+  font-size: 1.3rem;
+}
+.agent__image img{
+  width: 100%;
+}
+.agent__name{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.agent__role{
+  font-size: 1.3rem;
+  color: #3d9970;
+}
+
+/* what client say */
+.client{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.client_row{
+  margin: 0;
+}
+.testimonial-title-t{
+  color:#3d9970;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.testimonial-title-w{
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.testimonial-image{
+  width: 141px;
+}
+.quote-icon {
+  width: 27px;
+}
+.owl-item img{
+  width: 100%;
+}
+.owl-nav-button{
+  display: none;
+}
+.single-item-carousel{
+  position: relative;
+  z-index: 1;
+}
+.owl-nav{
+  position:absolute;
+  left: 50%;
+top: 35px;
+max-width: 270px;
+width: 100%;
+margin-left: -135px;
+}
+.testimonial-text{
+  font-size: 1.5rem;
+}
+.owl-prev{
+  position: absolute;
+  left: 20px;
+}
+.owl-next{
+  position: absolute;
+  right: 20px;
+}
+.rating span{
+  color: #3d9970;
+}
+
+/* Contact us */
+
+.contact_us_title{
+  color: #3d9970;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.contact_us_sub{
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.contact_content p{
+  font-size: 1.5rem;
+}
+.contact_icon span{
+  font-size: 1.5rem;
+}
+.contact_icon_fa{
+  color: #3d9970;
+}
+
+/* Faq */
+.faq{
+  padding: 7% 10%;
+  /* background-color: #f3f3f3; */
+}
+.faq_title span{
+  color: #3d9970;
+}
+.faq_title p{
+  font-style: italic;
+  font-size: 1.5rem;
+  color:
+}
+.faq_content{
+  margin-top: 5%;
+}
+.faq_col a{
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+/* blog */
+.blog_image img{
+  width: 100%;
+  height: 100%:
+}
+.blog_title p:nth-child(1){
+  color: #3d9970;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.blog_title p:nth-child(2){
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.blog_text p:nth-child(1){
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.blog_icon span:nth-child(odd){
+  color: #3d9970;
+}
+/* footer */
+.footer{
+  position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.auto-container{
+      padding: 7% 10%;
+}
+.contact_form{
+  margin-top: 5rem;
+}
+.form_subject input{
+  height: 5rem;
+}
+.form_message input{
+  height: 10rem;
+}
+.contact_form button{
+  background-color:  #3d9970;
+  border-radius: 10px;
+}
+.error{
+  color:white;
+}
+.success{
+  color:#3d9970;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+@keyframes carousel_caption_right {
+  0% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(70deg);
+  }
+}
+@media (max-width: 991.98px) { 
+  .skewed{
+    display: none;
+  }
+   .carousel_caption_left{
+     width: 75%;
+     top: 0;
+   }
+   .carousel_caption_left h1{
+     text-align: center;
+     border: none;
+   }
+   .carousel_caption_left p{
+     text-align: center;
+     font-size: 1rem;
+   }
+   .carousel_caption_left button{
+     margin-left: 40%;
+   }
+   .carousel_caption_right{
+     display: none;
+   }
+   h3{
+     font-size: 2rem;
+   }
+   .header_top , .header_bottom{
+     margin-left: 5rem;
+   }
+}
+@media (max-width: 767.98px) {
+  .carousel_caption_left h1{
+    font-size: 2rem;
+  }
+  .carousel_caption_left button{
+    display: none;
+  }
+}
+@media (max-width: 575.98px) { 
+  .carousel_caption_left h1{
+    font-size: 1.2rem;
+  }
+  .carousel_caption_left p{
+    font-size: 0.8rem;
+  }
+ }

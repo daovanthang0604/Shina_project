@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.2/iconfont/material-icons.min.css" integrity="sha512-y9glprRcVESvYY3suAqBUYXx0ySbQNvbzzgvLy9F2o38Y7XCNeq/No2gnHjV3+Rjyq5ijoPZRMXotpdw6jcG4g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"  />
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" />
+     <link rel="stylesheet" href="css/styles.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+   <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg==" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
+<script src="script.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body>
+
+  <header id="home">
+    <div class="header_top d-flex justify-content-between align-items-center">
+      <div class="header_top__left">
+        <label for="">
+                 <a href="#" class="mt-2 text-white"> <i class="fas fa-envelope header_email"></i></a>
+                 <a href="mailto:daovanthang0604@gmail.com" class="header_top__email text-white">Contact us: daovanthang0604@gmail.com</a>
+        </label>
+
+      </div>
+      <div class="header_top__right skewed text-center ">
+          <i class="fas fa-phone text-white mt-4"></i>
+          <span class="text-white">0914753010</span>
+      </div>
+    </div>
+   <div class="header_bottom">
+     <nav class="navbar navbar-expand-lg navbar-light myNavbar">
+       <div class="nav_bar_logo">
+         <img src="images/homepage.png" alt="Shina">
+       </div>
+
+    <button class="navbar-toggler navbar_button" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link text-white" data-page="home" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" data-page="about" href="#">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" data-page="property" href="#">PROPERTY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" data-page="gallery" href="#">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" data-page="agents" href="#">AGENTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" data-page="contact" href="#">CONTACT US</a>
+        </li>
+        <li class="nav-item navbar_search">
+          <a class="nav-link text-white" href="#"><i class="fas fa-search"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+   </div>
+  </header>
+<div class="main" >
+<section class="homepage_carousel">
+  <div id="homepage_carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/image-1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption carousel_caption_left">
+        <h1 class="carousel_title animate__animated animate__fadeInUp">Luxury Residence here</h1>
+        <p class="animate__animated animate__slideInLeft">Whether you’re looking to  sell or let your home or want to buy or rent a  home, we really are the people for you to come to. </p>
+        <button type="button" name="button" class="btn btn-lg btn-outline-secondary animate__animated animate__jackInTheBox">Read More</button>
+      </div>
+      <div class="carousel_caption_right text-center">
+        <h3 class="text-white">Sale Price</h3>
+        <h3 class="text-white">250.000$</h3>
+        <button type="button" name="button" class="btn btn-outline-dark text-white">Details</button>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/image-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption carousel_caption_left">
+        <h1 class="carousel_title animate__animated animate__fadeInUp">Luxury Residence here</h1>
+        <p class="animate__animated animate__slideInLeft">Whether you’re looking to  sell or let your home or want to buy or rent a  home, we really are the people for you to come to. </p>
+        <button type="button" name="button" class="btn btn-lg btn-outline-secondary  animate__animated animate__jackInTheBox">Read More</button>
+      </div>
+      <div class="carousel_caption_right text-center">
+        <h3 class="text-white">Sale Price</h3>
+        <h3 class="text-white">250.000$</h3>
+        <button type="button" name="button" class="btn btn-outline-dark text-white">Details</button>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/image-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption carousel_caption_left">
+        <h1 class="carousel_title animate__animated animate__fadeInUp">Luxury Residence here</h1>
+        <p class="animate__animated animate__slideInLeft">Whether you’re looking to  sell or let your home or want to buy or rent a  home, we really are the people for you to come to. </p>
+        <button type="button" name="button" class="btn btn-lg btn-outline-secondary animate__animated animate__jackInTheBox">Read More</button>
+      </div>
+      <div class="carousel_caption_right text-center">
+        <h3 class="text-white">Sale Price</h3>
+        <h3 class="text-white">250.000$</h3>
+        <button type="button" name="button" class="btn btn-outline-dark text-white">Details</button>
+      </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#homepage_carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#homepage_carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
+
+<!-- Best house -->
+<section class="best_house">
+  <div class="best_house__title text-center">
+   <p>We are offering the Best Real Estate</p>
+   <h3>Best House to Purchase</h3>
+   <div class="seperator mx-auto my-5">
+
+   </div>
+  </div>
+  <div class="best_house__content row">
+   <div class="col-md-4"> 
+     <div class="best_house__image">
+        <img src="images/house-1-370x284.jpg" alt="house-1">
+     <div class="overlay_box">
+       <div class="overlay_content">
+         <h3 class="overlay_content__house text-white">House</h3>
+         <button type="button" name="button" class="btn btn-lg text-white">Make Best House to Purchase</button>
+       </div>
+     </div>
+     </div>
+
+   </div>
+   <div class="col-md-4">
+     <div class="best_house__image">
+        <img src="images/house-2-370x284.jpg" alt="house-2">
+     <div class="overlay_box">
+       <div class="overlay_content">
+         <h3 class="overlay_content__house text-white">House</h3>
+         <button type="button" name="button" class="btn btn-lg text-white">Make Best House to Purchase</button>
+       </div>
+     </div>
+     </div>
+   </div>
+   <div class="col-md-4">
+     <div class="best_house__image">
+        <img src="images/house-3-370x284.jpg" alt="house-3">
+     <div class="overlay_box">
+       <div class="overlay_content">
+         <h3 class="overlay_content__house text-white">House</h3>
+         <button type="button" name="button" class="btn btn-lg text-white">Make Best House to Purchase</button>
+       </div>
+     </div>
+     </div>
+   </div>
+  </div>
+</section>
+
+<!-- About us -->
+<section class="about" id="about">
+<div class="text-center about_content">
+  <p class="about_content__title">ABOUT<span> US</span></p>
+  <p class="font-italic my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div class="row">
+<div class="col-lg-3 col-md-6 about_content__col">
+<i class="fas fa-home fa-3x mt-5 mb-2"></i>
+<p class="my-2">PROPERTY FOR SALE</p>
+<p class="count">500</p>
+</div>
+<div class="col-lg-3 col-md-6 about_content__col">
+  <i class="fas fa-smile-beam fa-3x mt-5 mb-2"></i>
+  <p class="my-2">AGENTS</p>
+  <p class="count">20</p>
+</div>
+<div class="col-lg-3 col-md-6 about_content__col">
+  <i class="fas fa-handshake fa-3x mt-5 mb-2"></i>
+  <p class="my-2">CLIENTS</p>
+  <p class="count">500</p>
+</div>
+<div class="col-lg-3 col-md-6 about_content__col">
+<i class="far fa-calendar-alt fa-3x mt-5 mb-2"></i>
+<p class="my-2">YEAR BUILD</p>
+<p class="count">2020</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Property for sale -->
+<section class="property_sale" id="property">
+<div class="property_sale__content">
+ <div class="property_sale__title text-center">
+  <p>Our Featured Properties For Sale and Rent</p>
+  <h3>Properties For Sale & Rent</h3>
+  <div class="seperator mx-auto my-5">
+
+  </div>
+ </div>
+ <div class="row property_details">
+   <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in-right">
+       <div class="property_image">
+         <img src="images/property-1.jpg" alt="property-1">
+         <div class="property_for_sale">
+             <div class="sale text-center">
+               <span class="text-white align-middle">Sale</span>
+             </div>
+         </div>
+         <div class="property_price">
+            <div class="price text-center">
+              <span class="text-white align-middle">$100,000</span>
+            </div>
+         </div>
+       </div>
+       <h4 class="mt-3">114 Giai Phong</h4>
+       <p class="property_location">Hai Ba Trung</p>
+       <p class="property_subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+   <div class="property_icon d-flex">
+      <i class="fas fa-bed mr-3 ml-3"> 03</i>
+      <i class="fas fa-toilet mr-3"> 02</i>
+      <i class="fas fa-warehouse mr-3"> 01</i>
+      <i class="fas fa-th ml-auto mr-3"> 100</i>
+   </div>
+   </div>
+   <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in-down">
+     <div class="property_image">
+       <img src="images/property-2.jpg" alt="property-2">
+       <div class="property_for_sale">
+           <div class="sale text-center">
+             <span class="text-white align-middle">Sale</span>
+           </div>
+       </div>
+       <div class="property_price">
+          <div class="price text-center">
+            <span class="text-white align-middle">$100,000</span>
+          </div>
+       </div>
+     </div>
+       <h4 class="mt-3">1 Dai Co Viet</h4>
+       <p class="property_location">Hai Ba Trung</p>
+       <p class="property_subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+       <div class="property_icon d-flex">
+          <i class="fas fa-bed mr-3 ml-3"> 03</i>
+          <i class="fas fa-toilet mr-3"> 02</i>
+          <i class="fas fa-warehouse mr-3"> 01</i>
+          <i class="fas fa-th ml-auto mr-3"> 100</i>
+       </div>
+   </div>
+   <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in-left">
+     <div class="property_image">
+          <img src="images/property-3.jpg" alt="property-3">
+          <div class="property_for_sale">
+              <div class="sale text-center">
+                <span class="text-white align-middle">Sale</span>
+              </div>
+          </div>
+          <div class="property_price">
+             <div class="price text-center">
+               <span class="text-white align-middle">$100,000</span>
+             </div>
+          </div>
+     </div>
+
+       <h4 class="mt-3">69 Truong Dinh</h4>
+       <p class="property_location">Hai Ba Trung</p>
+       <p class="property_subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+       <div class="property_icon d-flex">
+          <i class="fas fa-bed mr-3 ml-3"> 03</i>
+          <i class="fas fa-toilet mr-3"> 02</i>
+          <i class="fas fa-warehouse mr-3"> 01</i>
+          <i class="fas fa-th ml-auto mr-3"> 100</i>
+       </div>
+   </div>
+   <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in-right">
+     <div class="property_image">
+              <img src="images/property-4.jpg" alt="property-4">
+              <div class="property_for_sale">
+                  <div class="sale text-center">
+                    <span class="text-white align-middle">Sale</span>
+                  </div>
+              </div>
+              <div class="property_price">
+                 <div class="price text-center">
+                   <span class="text-white align-middle">$100,000</span>
+                 </div>
+              </div>
+     </div>
+       <h4 class="mt-3">113 Hue</h4>
+       <p class="property_location">Hai Ba Trung</p>
+       <p class="property_subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+       <div class="property_icon d-flex">
+          <i class="fas fa-bed mr-3 ml-3"> 03</i>
+          <i class="fas fa-toilet mr-3"> 02</i>
+          <i class="fas fa-warehouse mr-3"> 01</i>
+          <i class="fas fa-th ml-auto mr-3"> 100</i>
+       </div>
+   </div>
+   <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in-down"> 
+     <div class="property_image">
+              <img src="images/property-5.jpg" alt="property-5">
+              <div class="property_for_sale">
+                  <div class="sale text-center">
+                    <span class="text-white align-middle">Sale</span>
+                  </div>
+              </div>
+              <div class="property_price">
+                 <div class="price text-center">
+                   <span class="text-white align-middle">$100,000</span>
+                 </div>
+              </div>
+     </div>
+       <h4 class="mt-3">88 Bach Mai</h4>
+       <p class="property_location">Hai Ba Trung</p>
+       <p class="property_subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+       <div class="property_icon d-flex">
+          <i class="fas fa-bed mr-3 ml-3"> 03</i>
+          <i class="fas fa-toilet mr-3"> 02</i>
+          <i class="fas fa-warehouse mr-3"> 01</i>
+          <i class="fas fa-th ml-auto mr-3"> 100</i>
+       </div>
+   </div>
+   <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in-left">
+     <div class="property_image">
+              <img src="images/property-6.jpg" alt="property-6">
+              <div class="property_for_sale">
+                  <div class="sale text-center">
+                    <span class="text-white align-middle">Sale</span>
+                  </div>
+              </div>
+              <div class="property_price">
+                 <div class="price text-center">
+                   <span class="text-white align-middle">$100,000</span>
+                 </div>
+              </div>
+     </div>
+       <h4 class="mt-3">121 Le Thanh Nghi</h4>
+       <p class="property_location">Hai Ba Trung</p>
+       <p class="property_subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+       <div class="property_icon d-flex">
+          <i class="fas fa-bed mr-3 ml-3"> 03</i>
+          <i class="fas fa-toilet mr-3"> 02</i>
+          <i class="fas fa-warehouse mr-3"> 01</i>
+          <i class="fas fa-th ml-auto mr-3"> 100</i>
+       </div>
+   </div>
+ </div>
+</div>
+</section>
+
+<!-- Contact now -->
+<section class="contact_now" style="background-image:url(images/background.jpg)">
+<div class="row contact_row">
+<div class="col-md-8 text-justify contact_title">
+<h3 class="text-white contact_text">Find Best Place For Living</h3>
+<p class="text-white">Spend vacations in best hotels and resorts find the great place of your
+choice using different searching options.</p>
+</div>
+<div class="col-md-4 contact_button text-center align-middle pt-3">
+<button type="button" name="button" class="btn btn-lg text-white">Contact Now</button>
+</div>
+</div>
+</section>
+
+<!-- Photo gallery -->
+<section class="gallery mt-5" id="gallery">
+<div class="gallery_title text-center">
+<h3>PHOTO <span> GALLERY</span> </h3>
+</div>
+<div class="gallery_filter text-center my-5">
+ <button type="button" name="button" class="btn btn-outline-dark btn-lg button-active" data-type="all" id="btn--all">All</button>
+ <button type="button" name="button" class="btn btn-outline-dark btn-lg" data-type="apartment">Apartment</button>
+ <button type="button" name="button" class="btn btn-outline-dark btn-lg" data-type="livingroom">Living room</button>
+ <button type="button" name="button" class="btn btn-outline-dark btn-lg" data-type="kitchen">Kitchen</button>
+ <button type="button" name="button" class="btn btn-outline-dark btn-lg" data-type="garage">Garage</button>
+ <button type="button" name="button" class="btn btn-outline-dark btn-lg" data-type="bedroom">Bedroom</button>
+
+</div>
+<div class="row gallery_grid">
+ <div class="col-lg-3 col-md-6 grid-item all apartment">
+       <img src="images2/3.jpg" alt="" class="hvr-grow">
+ </div>
+ <div class="col-lg-3 col-md-6 grid-item all livingroom">
+  <img src="images2/81.jpg" alt="" class="hvr-grow">
+ </div>
+ <div class="col-lg-3 col-md-6 grid-item all bedroom">
+  <img src="images2/71.jpg" alt="" class="hvr-grow">
+ </div>
+ <div class="col-lg-3 col-md-6 grid-item all livingroom">
+  <img src="images2/61.jpg" alt="" class="hvr-grow">
+ </div>
+ <div class="col-lg-3 col-md-6 grid-item all livingroom">
+  <img src="images2/51.jpg" alt="" class="hvr-grow">
+ </div>
+ <div class="col-lg-3 col-md-6 grid-item all kitchen">
+  <img src="images2/42.jpg" alt="" class="hvr-grow">
+ </div>
+ <div class="col-lg-3 col-md-6 grid-item all livingroom">
+  <img src="images2/32.jpg" alt="" class="hvr-grow">
+ </div>
+ <div class="col-lg-3 col-md-6 grid-item all bedroom">
+  <img src="images2/22.jpg" alt="" class="hvr-grow">
+ </div>
+</div>
+</section>
+
+<!-- Agents -->
+<section class="agent" id="agents">
+<div class="agent__title text-center">
+<p>Meet our agents</p>
+<h3>Our best agents</h3>
+<div class="seperator mx-auto my-5">
+
+</div>
+</div>
+<div class="row">
+<div class="col-lg-3 col-md-6 agent__image" data-aos="fade-down">
+  <div class="card">
+<img src="images/team-1.jpg" class="card-img-top hvr-wobble-vertical" alt="...">
+<div class="card-body">
+  <p class="card-text text-center agent__name">Robert <br> Downey Jr.</p>
+  <p class="card-text text-center agent__role">Real estate agent</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 agent__image" data-aos="fade-down">
+  <div class="card">
+<img src="images/team-2.jpg" class="card-img-top hvr-wobble-vertical" alt="...">
+<div class="card-body">
+  <p class="card-text text-center agent__name">Scarlett <br> Johansson</p>
+  <p class="card-text text-center agent__role">Real estate agent</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 agent__image" data-aos="fade-down">
+  <div class="card">
+<img src="images/team-3.jpg" class="card-img-top hvr-wobble-vertical" alt="...">
+<div class="card-body">
+  <p class="card-text text-center agent__name">Chris <br> Evans</p>
+  <p class="card-text text-center agent__role">Real estate agent</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 agent__image" data-aos="fade-down">
+  <div class="card">
+<img src="images/team-4.jpg" class="card-img-top hvr-wobble-vertical" alt="...">
+<div class="card-body">
+  <p class="card-text text-center agent__name">Tom <br> Holland</p>
+  <p class="card-text text-center agent__role">Real estate agent</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- what client say -->
+<section class="client">
+<div class="row client_row">
+<div class="col-lg-6 testimonial-column">
+<div class="testimonial-title ml-5">
+<p class="testimonial-title-t">Testimonial</p>
+<p class="testimonial-title-w">What client say</p>
+<div class="seperator my-5">
+</div>
+</div>
+
+<div class="single-item-carousel owl-carousel owl-theme owl-loaded owl-drag">
+  <div class="owl-stage-outer">
+    <div class="owl-stage">
+      <div class="owl-item">
+        <div class="testimonial-block text-center">
+         <div class="testimonial-image mx-auto">
+            <img src="images/author.jpg" alt="">
+         </div>
+         <h4 class="my-3">Arthur Dr.</h4>
+         <div class="quote-icon mx-auto my-3">
+              <img src="images/quote-icon.png" alt="">
+         </div>
+         <div class="testimonial-text my-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra tempus nunc id consectetur. Etiam odio lorem, feugiat non ipsum sit amet, maximus placerat massa.</p>
+         </div>
+         <div class="rating my-3">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+         </div>
+         <div class="testimonial-date my-3">
+              December 11, 2020
+         </div>
+        </div>
+      </div>
+            <div class="owl-item">
+              <div class="testimonial-block text-center">
+               <div class="testimonial-image mx-auto">
+                  <img src="images/author.jpg" alt="">
+               </div>
+               <h4 class="my-3">Arthur Dr.</h4>
+               <div class="quote-icon mx-auto my-3">
+                    <img src="images/quote-icon.png" alt="">
+               </div>
+               <div class="testimonial-text my-3">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra tempus nunc id consectetur. Etiam odio lorem, feugiat non ipsum sit amet, maximus placerat massa.</p>
+               </div>
+               <div class="rating my-3">
+                     <span class="fa fa-star"></span>
+                     <span class="fa fa-star"></span>
+                     <span class="fa fa-star"></span>
+                     <span class="fa fa-star"></span>
+                     <span class="fa fa-star"></span>
+               </div>
+               <div class="testimonial-date my-3">
+                    December 11, 2020
+               </div>
+              </div>
+            </div>
+            <div class="owl-item">
+              <div class="testimonial-block text-center">
+               <div class="testimonial-image mx-auto">
+                  <img src="images/author.jpg" alt="">
+               </div>
+               <h4 class="my-3">Arthur Dr.</h4>
+               <div class="quote-icon mx-auto my-3">
+                    <img src="images/quote-icon.png" alt="">
+               </div>
+               <div class="testimonial-text my-3">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra tempus nunc id consectetur. Etiam odio lorem, feugiat non ipsum sit amet, maximus placerat massa.</p>
+               </div>
+               <div class="rating my-3">
+                     <span class="fa fa-star"></span>
+                     <span class="fa fa-star"></span>
+                     <span class="fa fa-star"></span>
+                     <span class="fa fa-star"></span>
+                     <span class="fa fa-star"></span>
+               </div>
+               <div class="testimonial-date my-3">
+                    December 11, 2020
+               </div>
+              </div>
+            </div>
+    </div>
+  </div>
+  <div class="owl-nav owl-nav-button">
+       <div class="owl-prev"><span class="fas fa-long-arrow-alt-left"></span></div>
+       <div class="owl-next"><span class="fas fa-long-arrow-alt-right"></span></div>
+   </div>
+</div>
+</div>
+
+<div class="col-lg-6 blog">
+<div class="blog_title">
+<p>Our Latest News</p>
+<p>Recent Blog Posts</p>
+<div class="seperator my-5">
+</div>
+</div>
+<div class="blog_content">
+<div class="row">
+<div class="col-md-4 blog_image">
+<img src="images/news-1.jpg" alt="">
+</div>
+<div class="col-md-8 blog_text mt-3">
+<p>Resources that we thought you may find useful</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod tortor commodo.</p>
+<div class="blog_icon">
+<span class="fas fa-user-circle mr-1"></span>
+<span class="mr-3"> Van Thang</span>
+<span class="fas fa-calendar-times mr-1"></span>
+<span> 13 Dec, 2020</span>
+</div>
+</div>
+</div>
+
+<div class="row mt-4 mb-1">
+<div class="col-md-4 blog_image">
+<img src="images/news-2.jpg" alt="">
+</div>
+<div class="col-md-8 blog_text mt-3">
+<p>Resources that we thought you may find useful</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod tortor commodo.</p>
+<div class="blog_icon">
+<span class="fas fa-user-circle mr-1"></span>
+<span class="mr-3"> Van Thang</span>
+<span class="fas fa-calendar-times mr-1"></span>
+<span> 13 Dec, 2020</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Advertising -->
+<section class="contact_now" style="background-image:url(images/background.jpg)">
+<div class="row contact_row">
+<div class="col-md-8 text-justify contact_title">
+<h3 class="text-white contact_text">Find Best Place For Living</h3>
+<p class="text-white">Spend vacations in best hotels and resorts find the great place of your
+choice using different searching options.</p>
+</div>
+<div class="col-md-4 contact_button text-center align-middle pt-3">
+<button type="button" name="button" class="btn btn-lg text-white">Contact Now</button>
+</div>
+</div>
+</section>
+<!-- FAQ -->
+<section class="faq">
+
+  <div class="faq_title text-center my-5 ">
+    <h3>FA<span>Q</span> </h3>
+    <p class="mt-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It’s long establised text</p>
+    <div class="seperator mx-auto my-5">
+
+    </div>
+  </div>
+<div class="row faq_content">
+<div class="col-lg-4 col-md-6 faq_col">
+  <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">This is a simple question?</a>
+  <div class="collapse" id="collapseExample">
+  <div class="card card-body">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6 faq_col">
+  <a data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">This is a simple question?</a>
+  <div class="collapse" id="collapseExample2">
+  <div class="card card-body">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6 faq_col">
+  <a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">This is a simple question?</a>
+  <div class="collapse" id="collapseExample3">
+  <div class="card card-body">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </div>
+  </div>
+</div>
+</div>
+<div class="row faq_content">
+<div class="col-lg-4 col-md-6 faq_col">
+  <a data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">This is a simple question?</a>
+  <div class="collapse" id="collapseExample4">
+  <div class="card card-body">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6 faq_col">
+  <a data-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">This is a simple question?</a>
+  <div class="collapse" id="collapseExample5">
+  <div class="card card-body">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6 faq_col">
+  <a data-toggle="collapse" href="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">This is a simple question?</a>
+  <div class="collapse" id="collapseExample6">
+  <div class="card card-body">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </div>
+  </div>
+</div>
+</div>
+</section>
+</div>
+
+
+<!-- footer -->
+<footer class="footer" style="background-image:url(images/footer.jpg)" id="contact">
+  <div class="auto-container">
+  <div class="row">
+<div class="col-md-6 contact_us_col p-0">
+  <div class="contact_us_inner mt-3">
+<div class="contact_us">
+  <p class="contact_us_title">Contact Us</p>
+  <p class="contact_us_sub text-white">Get in Touch</p>
+  <div class="seperator my-5">
+  </div>
+</div>
+<div class="contact_content text-white">
+<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+</div>
+<div class="contact_icon my-5 text-white">
+ <div class="icon_call">
+  <span class="fas fa-phone contact_icon_fa"></span>
+  <span class="ml-3"> Call us 0914-753-010</span>
+ </div>
+ <div class="icon_email">
+  <span class="far fa-envelope contact_icon_fa"></span>
+  <span class="ml-3"> daovanthang0604@gmail.com</span>
+ </div>
+ <div class="icon_clock">
+   <span class="fas fa-clock contact_icon_fa"></span>
+   <span class="ml-3"> Open weekday from 8am to 5pm</span>
+ </div>
+</div>
+</div>
+</div>
+<!-- form  -->
+<div class="col-md-6 contact_form pl-5">
+  <!-- <div class="row justify-content-center"> -->
+
+
+  <h4 class="text-white text-center">Contact Form</h4>
+    <form class="text-center" id="contact-form">
+  <div class="row my-3 justify-content-center" >
+
+     <div class="col-md-4 my-3">
+       <input type="text" class="form-control" placeholder="Your name" id="name" name="name">
+     </div>
+     <div class="col-md-4 my-3">
+       <input type="email" class="form-control" placeholder="Email" id="email" name="email">
+     </div>
+   </div>
+   <div class="row my-3 form_subject justify-content-center">
+     <div class="col-md-8">
+       <!-- <input type="text" name="subject"  class="form-control" placeholder="subject" id="subject"> -->
+    <textarea name="subject" rows="3" class="w-100" placeholder="subject"></textarea>
+     </div>
+   </div>
+   <div class="row my-3 form_message justify-content-center">
+     <div class="col-md-8">
+             <!-- <input type="text" name="message" class="form-control" placeholder="Message" id="message"> -->
+               <textarea name="message" rows="5" class="w-100" placeholder="Message"></textarea>
+     </div>
+   </div>
+   <button type="submit" name="button" class="btn btn-lg" id="send">Send</button>
+       </form>
+       <p class="success" id="success"></p>
+</div>
+</div>
+  </div>
+  <!-- </div> -->
+</footer>
+
+  </body>
+</html>
